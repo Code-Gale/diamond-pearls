@@ -109,11 +109,18 @@ const Footer = () => {
                 info@diamondpearlsltd.com
               </a>
               <a
-                href="tel:+234"
+                href="tel:+2348036571791"
                 className="flex items-center gap-3 text-primary-foreground/80 hover:text-accent transition-colors text-sm"
               >
                 <Phone size={18} className="text-accent" />
-                +234 XXX XXX XXXX
+                +234 803 657 1791
+              </a>
+              <a
+                href="tel:+2348055854911"
+                className="flex items-center gap-3 text-primary-foreground/80 hover:text-accent transition-colors text-sm"
+              >
+                <Phone size={18} className="text-accent" />
+                +234 805 585 4911
               </a>
             </div>
           </div>

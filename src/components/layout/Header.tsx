@@ -48,6 +48,17 @@ const Header = () => {
                 src="/images/logo.jpeg" 
                 alt="Diamond Pearls Logo" 
                 className="w-full h-full object-cover"
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement;
+                  target.style.display = 'none';
+                  const parent = target.parentElement;
+                  if (parent && !parent.querySelector('.logo-fallback')) {
+                    const fallback = document.createElement('span');
+                    fallback.className = 'logo-fallback text-primary-foreground font-serif font-bold text-xl';
+                    fallback.textContent = 'DP';
+                    parent.appendChild(fallback);
+                  }
+                }}
               />
             </div>
             <div className="hidden sm:block">

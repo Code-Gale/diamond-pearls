@@ -172,7 +172,7 @@ const HeroSection = () => {
               asChild
               variant="outline"
               size="lg"
-              className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 h-14 px-8 text-base"
+              className="border-primary-foreground/30 bg-background/90 backdrop-blur-sm text-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground h-14 px-8 text-base font-medium"
             >
               <Link to="/about">
                 <Play className="mr-2 h-5 w-5" />
@@ -211,7 +211,7 @@ const HeroSection = () => {
               delay={400}
             />
             <StatCounter
-              target={25}
+              target={27}
               suffix=""
               label="Years of Excellence"
               start={startCounter}

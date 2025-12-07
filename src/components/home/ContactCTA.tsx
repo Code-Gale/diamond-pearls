@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { MapPin, Mail, ArrowRight, Building2 } from "lucide-react";
+import { MapPin, Mail, Phone, ArrowRight, Building2 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 
@@ -60,21 +60,48 @@ const ContactCTA = () => {
               or simply want to learn more about our operations, we'd love to hear from you.
             </p>
 
-            {/* Email CTA */}
-            <div className="flex items-center gap-4 p-4 bg-muted rounded-xl mb-8">
-              <div className="w-12 h-12 rounded-lg bg-accent flex items-center justify-center">
-                <Mail className="text-accent-foreground" size={20} />
+            {/* Contact Info */}
+            <div className="space-y-4 mb-8">
+              <div className="flex items-center gap-4 p-4 bg-muted rounded-xl">
+                <div className="w-12 h-12 rounded-lg bg-accent flex items-center justify-center">
+                  <Mail className="text-accent-foreground" size={20} />
+                </div>
+                <div>
+                  <span className="text-xs uppercase tracking-widest text-muted-foreground block">
+                    Email Us
+                  </span>
+                  <a
+                    href="mailto:info@diamondpearlsltd.com"
+                    className="text-foreground font-medium hover:text-accent transition-colors"
+                  >
+                    info@diamondpearlsltd.com
+                  </a>
+                </div>
               </div>
-              <div>
-                <span className="text-xs uppercase tracking-widest text-muted-foreground block">
-                  Email Us
-                </span>
-                <a
-                  href="mailto:info@diamondpearlsltd.com"
-                  className="text-foreground font-medium hover:text-accent transition-colors"
-                >
-                  info@diamondpearlsltd.com
-                </a>
+
+              <div className="flex items-center gap-4 p-4 bg-muted rounded-xl">
+                <div className="w-12 h-12 rounded-lg bg-primary flex items-center justify-center">
+                  <Phone className="text-primary-foreground" size={20} />
+                </div>
+                <div>
+                  <span className="text-xs uppercase tracking-widest text-muted-foreground block mb-1">
+                    Call Us
+                  </span>
+                  <div className="space-y-1">
+                    <a
+                      href="tel:+2348036571791"
+                      className="block text-foreground font-medium hover:text-accent transition-colors"
+                    >
+                      +234 803 657 1791
+                    </a>
+                    <a
+                      href="tel:+2348055854911"
+                      className="block text-foreground font-medium hover:text-accent transition-colors"
+                    >
+                      +234 805 585 4911
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
 

@@ -138,6 +138,7 @@ const Careers = () => {
         {/* Careers Gallery */}
         <Gallery
           images={[
+            { src: "/images/workspace.jpeg", alt: "Workspace" },
             { src: "/images/Picture20.jpg", alt: "Careers Image 1" },
             { src: "/images/Picture21.jpg", alt: "Careers Image 2" },
             { src: "/images/Picture22.jpg", alt: "Careers Image 3" },

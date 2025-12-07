@@ -120,6 +120,33 @@ const Contact = () => {
                       </div>
                     </div>
                   </div>
+
+                  <div className="bg-card rounded-xl p-6 shadow-card border border-border/50">
+                    <div className="flex items-start gap-4">
+                      <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                        <Phone size={20} className="text-primary" />
+                      </div>
+                      <div>
+                        <span className="text-xs uppercase tracking-widest text-accent font-medium block mb-1">
+                          Phone
+                        </span>
+                        <div className="space-y-1">
+                          <a
+                            href="tel:+2348036571791"
+                            className="block text-foreground hover:text-accent transition-colors"
+                          >
+                            +234 803 657 1791
+                          </a>
+                          <a
+                            href="tel:+2348055854911"
+                            className="block text-foreground hover:text-accent transition-colors"
+                          >
+                            +234 805 585 4911
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
                 {/* Interactive Map */}

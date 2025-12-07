@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-import { Droplets, Leaf, FlaskConical, Shell, Fuel } from "lucide-react";
+import { Droplets, Leaf, FlaskConical, Shell, Cookie, Fuel } from "lucide-react";
 import Gallery from "@/components/ui/Gallery";
 
 const products = [
@@ -188,7 +188,7 @@ const Products = () => {
                 <div className="aspect-square bg-muted rounded-xl overflow-hidden">
                   <img
                     src="/images/truck.jpeg"
-                    alt="Bulk Production Truck"
+                    alt="Bulk Supply Truck"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -200,7 +200,7 @@ const Products = () => {
         {/* Products Gallery */}
         <Gallery
           images={[
-            { src: "/images/truck.jpeg", alt: "Bulk Production Truck" },
+            { src: "/images/truck.jpeg", alt: "Bulk Supply Truck" },
             { src: "/images/Picture15.jpg", alt: "Product Image 1" },
             { src: "/images/Picture16.jpg", alt: "Product Image 2" },
             { src: "/images/Picture17.jpg", alt: "Product Image 3" },
