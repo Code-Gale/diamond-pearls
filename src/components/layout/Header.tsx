@@ -43,8 +43,12 @@ const Header = () => {
         <nav className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center shadow-gold transition-transform group-hover:scale-105">
-              <span className="text-primary-foreground font-serif font-bold text-xl">DP</span>
+            <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center shadow-gold transition-transform group-hover:scale-105 overflow-hidden">
+              <img 
+                src="/images/logo.jpeg" 
+                alt="Diamond Pearls Logo" 
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="hidden sm:block">
               <span className={cn(

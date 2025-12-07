@@ -8,12 +8,12 @@ const timelineEvents = [
     description: "Established as a trading & distribution company supplying sorghum to breweries and palm oil to refineries.",
   },
   {
-    year: "2005",
+    year: "2000",
     title: "Expansion Phase",
     description: "Built palm kernel crushing plant in Akute, Lagos, marking our entry into processing.",
   },
   {
-    year: "2008",
+    year: "2002",
     title: "Backward Integration",
     description: "Developed our own palm plantation in Kwara State for sustainable raw material supply.",
   },

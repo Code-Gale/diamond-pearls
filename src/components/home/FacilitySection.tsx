@@ -19,9 +19,9 @@ const facilities = [
   },
   {
     icon: Beaker,
-    title: "Refinery",
+    title: "Refineries",
     location: "Kwara State",
-    description: "State-of-the-art vegetable oil refinery producing premium RBPKO, RBDPO, and refined soya oil.",
+    description: "State-of-the-art vegetable oil refineries producing premium RBPKO, RBDPO, and refined soya oil.",
     stat: "180 Tons/Day",
   },
   {
@@ -30,6 +30,20 @@ const facilities = [
     location: "Kwara State",
     description: "On-site bottling plant producing Samcas Vegetable Oil in various sizes for retail distribution.",
     stat: "Multiple SKUs",
+  },
+  {
+    icon: Beaker,
+    title: "Fractionation Plant",
+    location: "Kwara State",
+    description: "Advanced fractionation facility for separating palm oil into different fractions for specialized applications.",
+    stat: "Specialized Processing",
+  },
+  {
+    icon: Beaker,
+    title: "Degumming Plant",
+    location: "Kwara State",
+    description: "Modern degumming facility for removing gums and impurities from crude oils to ensure premium quality.",
+    stat: "Quality Processing",
   },
 ];
 

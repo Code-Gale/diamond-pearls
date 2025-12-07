@@ -17,13 +17,15 @@ import { cn } from "@/lib/utils";
 const galleryImages = [
   { src: "/images/Picture1.jpg", alt: "Gallery Image 1" },
   { src: "/images/Picture2.jpg", alt: "Gallery Image 2" },
-  { src: "/images/Picture3.jpg", alt: "Gallery Image 3" },
+  { src: "/images/1.jpeg", alt: "Gallery Image 3" },
   { src: "/images/Picture4.jpg", alt: "Gallery Image 4" },
   { src: "/images/Picture5.jpg", alt: "Gallery Image 5" },
-  { src: "/images/Picture6.jpg", alt: "Gallery Image 6" },
+  { src: "/images/2.jpeg", alt: "Gallery Image 6" },
   { src: "/images/Picture7.jpg", alt: "Gallery Image 7" },
   { src: "/images/Picture8.jpg", alt: "Gallery Image 8" },
-  { src: "/images/Picture9.jpg", alt: "Gallery Image 9" },
+  { src: "/images/3.jpeg", alt: "Gallery Image 9" },
+  { src: "/images/4.jpeg", alt: "Gallery Image 10" },
+  { src: "/images/5.jpeg", alt: "Gallery Image 11" },
 ];
 
 const GallerySlider = () => {
