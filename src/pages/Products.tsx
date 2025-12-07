@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-import { Droplets, Leaf, FlaskConical, Shell, Cookie, Fuel, Package } from "lucide-react";
+import { Droplets, Leaf, FlaskConical, Shell, Fuel } from "lucide-react";
 import Gallery from "@/components/ui/Gallery";
 
 const products = [
@@ -44,14 +44,6 @@ const products = [
     description: "Light and healthy soya oil, ideal for everyday cooking and food manufacturing. Rich in essential fatty acids.",
     applications: ["Cooking", "Food manufacturing", "Healthy diets"],
     color: "bg-emerald-500/10 text-emerald-600",
-  },
-  {
-    icon: Package,
-    title: "Bakers Fat",
-    shortName: "BF",
-    description: "Specialized fat formulation designed for bakery applications, providing excellent texture and taste.",
-    applications: ["Bakery products", "Pastries", "Confectionery"],
-    color: "bg-pink-500/10 text-pink-600",
   },
   {
     icon: Fuel,
@@ -150,37 +142,55 @@ const Products = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
                 <span className="inline-block text-accent font-medium text-sm uppercase tracking-widest mb-4">
-                  Our Retail Brand
+                  Our Bulk & Retail Brands
                 </span>
                 <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-semibold text-foreground mb-6">
                   Samcas <span className="text-primary">Vegetable Oil</span>
                 </h2>
                 <p className="text-muted-foreground mb-8 leading-relaxed">
-                  Our flagship retail brand, Samcas Vegetable Oil, brings the quality of our 
-                  industrial production directly to Nigerian households.
+                  Our flagship brands serve both households and large-scale clients. Through our retail line and our industrial bulk supply, we bring the quality of our production directly to Nigerian homes and certified bottling operations.
                 </p>
 
-                <ul className="space-y-4 mb-8">
-                  {[
-                    "Golden color with excellent clarity",
-                    "High purity and quality standards",
-                    "Bottled on-site for freshness",
-                    "Available in 25L, 10L, and 5L sizes",
-                  ].map((feature, index) => (
-                    <li key={index} className="flex items-center gap-3">
-                      <div className="w-2 h-2 rounded-full bg-accent" />
-                      <span className="text-foreground">{feature}</span>
-                    </li>
-                  ))}
-                </ul>
+                <div className="mb-8">
+                  <h3 className="font-serif text-xl font-semibold text-foreground mb-4">Retail Features</h3>
+                  <ul className="space-y-3 mb-6">
+                    {[
+                      "Golden color with excellent clarity",
+                      "High purity and quality standards",
+                      "Bottled on-site for freshness",
+                      "Available in 25L, 5L, 2L, and sachet sizes",
+                    ].map((feature, index) => (
+                      <li key={index} className="flex items-center gap-3">
+                        <div className="w-2 h-2 rounded-full bg-accent" />
+                        <span className="text-foreground">{feature}</span>
+                      </li>
+                    ))}
+                  </ul>
+
+                  <h3 className="font-serif text-xl font-semibold text-foreground mb-4">Bulk Supply Features</h3>
+                  <ul className="space-y-3">
+                    {[
+                      "Available in 30–40 MT per truck",
+                      "Produced for bottling and repackaging",
+                      "Delivered only to facilities certified by NAFDAC/SON",
+                      "Consistent, industrial-grade quality",
+                    ].map((feature, index) => (
+                      <li key={index} className="flex items-center gap-3">
+                        <div className="w-2 h-2 rounded-full bg-accent" />
+                        <span className="text-foreground">{feature}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
 
               <div className="bg-card rounded-2xl p-8 shadow-card border border-border/50">
-                <div className="aspect-square bg-muted rounded-xl flex items-center justify-center">
-                  <div className="text-center">
-                    <Package size={48} className="mx-auto mb-4 text-accent" />
-                    <p className="text-muted-foreground">Product Image</p>
-                  </div>
+                <div className="aspect-square bg-muted rounded-xl overflow-hidden">
+                  <img
+                    src="/images/truck.jpeg"
+                    alt="Bulk Production Truck"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </div>
@@ -190,6 +200,7 @@ const Products = () => {
         {/* Products Gallery */}
         <Gallery
           images={[
+            { src: "/images/truck.jpeg", alt: "Bulk Production Truck" },
             { src: "/images/Picture15.jpg", alt: "Product Image 1" },
             { src: "/images/Picture16.jpg", alt: "Product Image 2" },
             { src: "/images/Picture17.jpg", alt: "Product Image 3" },
