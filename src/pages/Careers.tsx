@@ -226,8 +226,9 @@ const Careers = () => {
             { src: "/images/workspace.jpeg", alt: "Workspace" },
             { src: "/images/Picture20.jpg", alt: "Careers Image 1" },
             { src: "/images/Picture21.jpg", alt: "Careers Image 2" },
-            { src: "/images/Picture22.jpg", alt: "Careers Image 3" },
-            { src: "/images/13.jpeg", alt: "Careers Image 4" },
+            // { src: "/images/Picture22.jpg", alt: "Careers Image 3" },
+            { src: "/images/Picture23.jpg", alt: "Careers Image 4" },
+            { src: "/images/13.jpeg", alt: "Careers Image 5" },
           ]}
           tag="Workplace Gallery"
           title={

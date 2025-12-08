@@ -23,7 +23,7 @@ const galleryImages = [
   { src: "/images/2.jpeg", alt: "Gallery Image 6" },
   { src: "/images/Picture7.jpg", alt: "Gallery Image 7" },
   { src: "/images/Picture8.jpg", alt: "Gallery Image 8" },
-  { src: "/images/3.jpeg", alt: "Gallery Image 9" },
+  // { src: "/images/3.jpeg", alt: "Gallery Image 9" },
   { src: "/images/4.jpeg", alt: "Gallery Image 10" },
   { src: "/images/5.jpeg", alt: "Gallery Image 11" },
   { src: "/images/6.jpeg", alt: "Gallery Image 12" },
