@@ -26,6 +26,12 @@ const galleryImages = [
   { src: "/images/3.jpeg", alt: "Gallery Image 9" },
   { src: "/images/4.jpeg", alt: "Gallery Image 10" },
   { src: "/images/5.jpeg", alt: "Gallery Image 11" },
+  { src: "/images/6.jpeg", alt: "Gallery Image 12" },
+  { src: "/images/7.jpeg", alt: "Gallery Image 13" },
+  { src: "/images/8.jpeg", alt: "Gallery Image 14" },
+  { src: "/images/9.jpeg", alt: "Gallery Image 15" },
+  { src: "/images/10.jpeg", alt: "Gallery Image 16" },
+  { src: "/images/11.jpeg", alt: "Gallery Image 17" },
 ];
 
 const GallerySlider = () => {

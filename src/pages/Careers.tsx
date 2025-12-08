@@ -4,6 +4,7 @@ import Footer from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
 import { Briefcase, GraduationCap, Users, ArrowRight, Mail } from "lucide-react";
 import Gallery from "@/components/ui/Gallery";
+import { cn } from "@/lib/utils";
 
 const benefits = [
   {
@@ -20,6 +21,44 @@ const benefits = [
     icon: Users,
     title: "Collaborative Culture",
     description: "Work alongside passionate professionals in a supportive and inclusive environment.",
+  },
+];
+
+const teamMembers = [
+  {
+    name: "Engr Rasheed Adelabu",
+    role: "Chief Operating Officer",
+    image: "/images/rasheed.jpeg",
+  },
+  {
+    name: "Mrs Olayemi Ayebamiru",
+    role: "Chief Financial Officer",
+    image: "/images/olayemi.jpeg",
+  },
+  {
+    name: "Mr Tajudeen Ajao",
+    role: "Head of Procurement",
+    image: "/images/tajudeen.jpeg",
+  },
+  {
+    name: "Mr Taiye Oyinloye",
+    role: "Head of Sales",
+    image: "/images/taiye.jpeg",
+  },
+  {
+    name: "Barrister Pete Offushi",
+    role: "Head of Human Resources",
+    image: "/images/pete.jpeg",
+  },
+  {
+    name: "Mr Rafiu Musa",
+    role: "Head of Maintenance",
+    image: "/images/rafiu.jpeg",
+  },
+  {
+    name: "Mr Kolawole Akintayo",
+    role: "Health Safety and Environmental Manager",
+    image: "/images/kolawole.jpeg",
   },
 ];
 
@@ -135,6 +174,52 @@ const Careers = () => {
           </div>
         </section>
 
+        {/* Our Team */}
+        <section className="py-24 bg-cream-dark">
+          <div className="container mx-auto px-4 lg:px-8">
+            <div className="text-center mb-16">
+              <span className="inline-block text-accent font-medium text-sm uppercase tracking-widest mb-4">
+                Our Team
+              </span>
+              <h2 className="font-serif text-3xl md:text-4xl font-semibold text-foreground mb-4">
+                Meet Our <span className="text-primary">Leadership Team</span>
+              </h2>
+              <p className="text-muted-foreground max-w-2xl mx-auto">
+                Experienced professionals dedicated to driving excellence and innovation in agribusiness.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {teamMembers.map((member, index) => (
+                <div
+                  key={index}
+                  className="bg-card rounded-2xl p-6 shadow-card border border-border/50 hover-lift transition-all duration-300 hover:shadow-xl"
+                >
+                  <div className="w-32 h-32 rounded-full bg-primary/10 flex items-center justify-center mb-4 mx-auto overflow-hidden">
+                    {member.image ? (
+                      <img
+                        src={member.image}
+                        alt={member.name}
+                        className="w-full h-full object-contain"
+                      />
+                    ) : (
+                      <Users size={24} className="text-primary" />
+                    )}
+                  </div>
+                  <div className="text-center">
+                    <span className="inline-block px-3 py-1 bg-accent/20 rounded-full text-xs font-medium text-accent mb-3">
+                      {member.role}
+                    </span>
+                    <h3 className="font-serif text-lg font-semibold text-foreground">
+                      {member.name}
+                    </h3>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* Careers Gallery */}
         <Gallery
           images={[
@@ -143,6 +228,7 @@ const Careers = () => {
             { src: "/images/Picture21.jpg", alt: "Careers Image 2" },
             { src: "/images/Picture22.jpg", alt: "Careers Image 3" },
             { src: "/images/Picture23.jpg", alt: "Careers Image 4" },
+            { src: "/images/13.jpeg", alt: "Careers Image 5" },
           ]}
           tag="Workplace Gallery"
           title={

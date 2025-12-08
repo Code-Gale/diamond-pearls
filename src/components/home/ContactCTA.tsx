@@ -145,18 +145,35 @@ const ContactCTA = () => {
               </div>
             ))}
 
-            {/* Interactive Map */}
-            <div className="bg-muted rounded-2xl h-48 overflow-hidden border border-border/50">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.4!2d3.3!3d6.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdcb28cc0bcb63eca!2sPlot%20357%20Abisogun%20Leigh%2C%20Off%20Wempco%20Road%2C%20Ogba%2C%20Ikeja%2C%20Lagos!5e0!3m2!1sen!2sng!4v1234567890"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Diamond Pearls Headquarters Location"
-              />
+            {/* Interactive Maps */}
+            <div className="space-y-4">
+              {/* Headquarters Map */}
+              <div className="bg-muted rounded-2xl h-48 overflow-hidden border border-border/50">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.4!2d3.3!3d6.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdcb28cc0bcb63eca!2sPlot%20357%20Abisogun%20Leigh%2C%20Off%20Wempco%20Road%2C%20Ogba%2C%20Ikeja%2C%20Lagos!5e0!3m2!1sen!2sng!4v1234567890"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Diamond Pearls Headquarters Location"
+                />
+              </div>
+              
+              {/* Operations Map */}
+              <div className="bg-muted rounded-2xl h-48 overflow-hidden border border-border/50">
+                <iframe
+                  src="https://www.google.com/maps?q=Km+5,+Ajase-Ipo+/+Offa+Road,+Amberri+Village,+Kwara+State&output=embed"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Diamond Pearls Operations Location"
+                />
+              </div>
             </div>
           </div>
         </div>

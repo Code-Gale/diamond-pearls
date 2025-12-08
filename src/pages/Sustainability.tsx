@@ -141,12 +141,21 @@ const Sustainability = () => {
               </div>
 
               <div className="grid grid-cols-2 gap-4">
-                {[1, 2, 3, 4].map((i) => (
+                {[
+                  { src: "/images/cr1.jpeg", alt: "CSR Image 1" },
+                  { src: "/images/cr2.jpeg", alt: "CSR Image 2" },
+                  { src: "/images/cr3.jpeg", alt: "CSR Image 3" },
+                  { src: "/images/cr4.jpeg", alt: "CSR Image 4" },
+                ].map((image, i) => (
                   <div
                     key={i}
-                    className="aspect-square bg-primary-foreground/10 rounded-xl flex items-center justify-center"
+                    className="aspect-square bg-primary-foreground/10 rounded-xl overflow-hidden"
                   >
-                    <Heart size={32} className="text-accent" />
+                    <img
+                      src={image.src}
+                      alt={image.alt}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 ))}
               </div>

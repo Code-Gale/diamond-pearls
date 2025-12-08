@@ -43,7 +43,7 @@ const Header = () => {
         <nav className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center shadow-gold transition-transform group-hover:scale-105 overflow-hidden">
+            <div className="w-16 h-16 rounded-full bg-primary flex items-center justify-center shadow-gold transition-transform group-hover:scale-105 overflow-hidden">
               <img 
                 src="/images/logo.jpeg" 
                 alt="Diamond Pearls Logo" 

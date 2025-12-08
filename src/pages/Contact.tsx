@@ -147,20 +147,28 @@ const Contact = () => {
                       </div>
                     </div>
                   </div>
-                </div>
 
-                {/* Interactive Map */}
-                <div className="bg-muted rounded-2xl h-64 overflow-hidden border border-border/50">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.4!2d3.3!3d6.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdcb28cc0bcb63eca!2sPlot%20357%20Abisogun%20Leigh%2C%20Off%20Wempco%20Road%2C%20Ogba%2C%20Ikeja%2C%20Lagos!5e0!3m2!1sen!2sng!4v1234567890"
-                    width="100%"
-                    height="100%"
-                    style={{ border: 0 }}
-                    allowFullScreen
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                    title="Diamond Pearls Headquarters Location"
-                  />
+                  <div className="bg-card rounded-xl p-6 shadow-card border border-border/50">
+                    <div className="flex items-start gap-4">
+                      <div className="w-12 h-12 rounded-lg bg-accent/20 flex items-center justify-center flex-shrink-0">
+                        <Building2 size={20} className="text-accent" />
+                      </div>
+                      <div>
+                        <span className="text-xs uppercase tracking-widest text-accent font-medium block mb-1">
+                          Factory
+                        </span>
+                        <p className="text-foreground mb-2">
+                          Diamond Pearls Agro Allied Ltd
+                        </p>
+                        <a
+                          href="tel:+2348033083956"
+                          className="text-foreground hover:text-accent transition-colors"
+                        >
+                          +234 803 308 3956
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -255,6 +263,56 @@ const Contact = () => {
                     )}
                   </Button>
                 </form>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Interactive Maps Section */}
+        <section className="py-24 bg-cream-dark">
+          <div className="container mx-auto px-4 lg:px-8">
+            <div className="text-center mb-12">
+              <span className="inline-block text-accent font-medium text-sm uppercase tracking-widest mb-4">
+                Our Locations
+              </span>
+              <h2 className="font-serif text-3xl md:text-4xl font-semibold text-foreground mb-4">
+                Find Us on <span className="text-primary">Map</span>
+              </h2>
+            </div>
+            
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+              {/* Headquarters Map */}
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-4">Headquarters Location</h3>
+                <div className="bg-muted rounded-2xl h-96 lg:h-[500px] overflow-hidden border border-border/50 shadow-card">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.4!2d3.3!3d6.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdcb28cc0bcb63eca!2sPlot%20357%20Abisogun%20Leigh%2C%20Off%20Wempco%20Road%2C%20Ogba%2C%20Ikeja%2C%20Lagos!5e0!3m2!1sen!2sng!4v1234567890"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Diamond Pearls Headquarters Location"
+                  />
+                </div>
+              </div>
+
+              {/* Factory Map */}
+              <div>
+                <h3 className="text-lg font-semibold text-foreground mb-4">Factory Location</h3>
+                <div className="bg-muted rounded-2xl h-96 lg:h-[500px] overflow-hidden border border-border/50 shadow-card">
+                  <iframe
+                    src="https://www.google.com/maps?q=Km+5,+Ajase-Ipo+/+Offa+Road,+Amberri+Village,+Kwara+State&output=embed"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Diamond Pearls Factory Location"
+                  />
+                </div>
               </div>
             </div>
           </div>
