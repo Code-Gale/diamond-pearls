@@ -303,7 +303,7 @@ const Contact = () => {
                 <h3 className="text-lg font-semibold text-foreground mb-4">Factory Location</h3>
                 <div className="bg-muted rounded-2xl h-96 lg:h-[500px] overflow-hidden border border-border/50 shadow-card">
                   <iframe
-                    src="https://www.google.com/maps?q=Km+5,+Ajase-Ipo+/+Offa+Road,+Amberri+Village,+Kwara+State&output=embed"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d154615.79766850692!2d4.631985130967017!3d8.369127495444173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1037c42aafda7fe5%3A0xd682ee56b57dcb3!2sAjasse%20Ipo%2C%20Kwara%2C%20Nigeria!5e0!3m2!1sen!2sus!4v1765200350789!5m2!1sen!2sus"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
