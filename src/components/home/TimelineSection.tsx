@@ -18,7 +18,7 @@ const timelineEvents = [
     description: "Developed our own palm plantation in Kwara State for sustainable raw material supply.",
   },
   {
-    year: "2012",
+    year: "2008",
     title: "Strategic Relocation",
     description: "Relocated crushing operations to Kwara State, closer to our plantation for operational efficiency.",
   },

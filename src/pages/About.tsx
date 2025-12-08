@@ -89,7 +89,7 @@ const directors = [
     role: "MD/CEO",
     bio: "Visionary leader with over 25 years of experience in Nigeria's agribusiness sector, driving Diamond Pearls' transformation from trading to integrated production.",
     image: "/images/md.jpeg",
-    fullBio: `Samson Wale Adeyemo attended Offa Grammar School for his secondary education and finished in 1982. He graduated in Land Surveying in 1987 and equally holds a Master of Public Administration Degree from the Ogun State University in 1997. Adeyemo is a Lagos Business School ALUMNI.
+    fullBio: `Samson Wale Adeyemo attended Offa Grammar School for his secondary education and finished in 1982. He graduated in Land Surveying in 1987 and equally holds a Master of Public Administration Degree from the Ogun State University in 1997. Adeyemo is a Lagos Business School Alumni.
 
 Wale Adeyemo did his NYSC with Messrs. Yahaya and Associates in Kano in 1987 and commenced his working career with the Federal Civil Service in 1988 and worked with the Federal Ministry of Works and Housing. In 1989 he left the Civil Service to join Messrs. Seismograph Services Ltd, an Oil Servicing Company. In the same year he got an appointment with Schlumberger Nigeria Limited, an oil servicing company, where he worked for four (4) years. Mr. Adeyemo, an oil field Seismic Surveyor, has quality experience in marine and maritime operations by virtue of his experience at Seismograph Oil Servicing Company and Schlumberger Limited. He worked on a lot of offshore, on shore and shallow marine oil fields.
 
