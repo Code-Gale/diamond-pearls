@@ -66,11 +66,20 @@ const Careers = () => {
   return (
     <>
       <Helmet>
-        <title>Careers | Diamond Pearls Agro Allied Ltd</title>
+        <title>Careers | Join Our Team | Diamond Pearls Agro Allied Ltd</title>
         <meta
           name="description"
-          content="Join Diamond Pearls Agro Allied Ltd and build your career in Nigeria's leading agribusiness company. Explore opportunities and internships."
+          content="Join Diamond Pearls Agro Allied Ltd and build your career in Nigeria's leading agribusiness company. Explore career opportunities, internships, and SIWES programs. Send your CV to hr@diamondpearlsltd.com"
         />
+        <meta name="keywords" content="careers Nigeria agribusiness, jobs Diamond Pearls, internships, SIWES opportunities, agribusiness careers, Nigeria agriculture jobs" />
+        <meta property="og:title" content="Careers | Join Our Team | Diamond Pearls Agro Allied Ltd" />
+        <meta property="og:description" content="Join Diamond Pearls Agro Allied Ltd and build your career in Nigeria's leading agribusiness company. Explore opportunities and internships." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://diamondpearlsltd.com/careers" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Careers | Diamond Pearls Agro Allied Ltd" />
+        <meta name="twitter:description" content="Join Diamond Pearls Agro Allied Ltd and build your career in Nigeria's leading agribusiness company." />
+        <link rel="canonical" href="https://diamondpearlsltd.com/careers" />
       </Helmet>
 
       <Header />
