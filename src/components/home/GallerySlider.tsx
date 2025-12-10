@@ -17,10 +17,10 @@ import { cn } from "@/lib/utils";
 const galleryImages = [
   { src: "/images/a1.jpg", alt: "Gallery Image 1" },
   { src: "/images/a2.jpg", alt: "Gallery Image 2" },
-  { src: "/images/a3.jpg", alt: "Gallery Image 3" },
+  { src: "/images/a3.png", alt: "Gallery Image 3" },
   { src: "/images/a4.jpg", alt: "Gallery Image 4" },
   { src: "/images/a5.jpg", alt: "Gallery Image 5" },
-  { src: "/images/a6.jpg", alt: "Gallery Image 6" },
+  { src: "/images/a6.png", alt: "Gallery Image 6" },
   { src: "/images/a7.jpg", alt: "Gallery Image 7" },
   { src: "/images/a8.jpg", alt: "Gallery Image 8" },
 ];
