@@ -15,21 +15,14 @@ const Index = () => {
         <title>Diamond Pearls Agro Allied Ltd | Premium Edible Oils Producer in Nigeria</title>
         <meta
           name="description"
-          content="Diamond Pearls Agro Allied Ltd is Nigeria's leading integrated producer of premium edible oils including RBDPKO, RBDPO, and Refined Soya Oil. Established 1998. From plantation to packaging, quality at every stage."
+          content="Diamond Pearls Agro Allied Ltd is Nigeria's leading integrated producer of premium edible oils including RBDPKO, RBDPO, and Refined Soya Oil. Established 1998."
         />
-        <meta name="keywords" content="edible oils, palm oil, Nigeria agribusiness, RBDPKO, RBDPO, vegetable oil, Samcas, palm kernel oil, refined palm oil, Nigeria food manufacturing" />
-        <meta property="og:title" content="Diamond Pearls Agro Allied Ltd | Premium Edible Oils Producer in Nigeria" />
+        <meta property="og:title" content="Diamond Pearls Agro Allied Ltd | Premium Edible Oils Producer" />
         <meta
           property="og:description"
-          content="Nigeria's leading integrated producer of premium edible oils. From plantation to packaging, quality at every stage. Established 1998."
+          content="Nigeria's leading integrated producer of premium edible oils. From plantation to packaging, quality at every stage."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://diamondpearlsltd.com" />
-        <meta property="og:image" content="https://diamondpearlsltd.com/images/logo.jpeg" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Diamond Pearls Agro Allied Ltd | Premium Edible Oils Producer" />
-        <meta name="twitter:description" content="Nigeria's leading integrated producer of premium edible oils. From plantation to packaging, quality at every stage." />
-        <meta name="twitter:image" content="https://diamondpearlsltd.com/images/logo.jpeg" />
         <link rel="canonical" href="https://diamondpearlsltd.com" />
       </Helmet>
 

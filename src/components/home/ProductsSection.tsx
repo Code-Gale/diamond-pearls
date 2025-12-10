@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 const products = [
   {
     icon: Droplets,
-    title: "REFINED\nBLEACHED\nDEODORISED\nPALM\nKERNEL\nOIL\nRBDPKO",
+    title: "Refined Bleached Deodorised Palm Kernel Oil",
     shortName: "RBDPKO",
     description: "High-quality refined palm kernel oil, perfect for food processing and cosmetic applications.",
     color: "bg-amber-500/10 text-amber-600",
@@ -97,7 +97,7 @@ const ProductsSection = () => {
               </span>
 
               {/* Content */}
-              <h3 className="font-serif text-xl font-semibold text-foreground mb-3 group-hover:text-primary transition-colors whitespace-pre-line">
+              <h3 className="font-serif text-xl font-semibold text-foreground mb-3 group-hover:text-primary transition-colors">
                 {product.title}
               </h3>
               <p className="text-muted-foreground text-sm leading-relaxed mb-6">

@@ -15,7 +15,7 @@ const products = [
   },
   {
     icon: Droplets,
-    title: "REFINED\nBLEACHED\nDEODORISED\nPALM\nKERNEL\nOIL\nRBDPKO",
+    title: "Refined Bleached Deodorised Palm Kernel Oil",
     shortName: "RBDPKO",
     description: "High-quality refined palm kernel oil, perfect for food processing, confectionery, and cosmetic applications.",
     applications: ["Confectionery", "Cosmetics", "Food processing"],
@@ -59,21 +59,11 @@ const Products = () => {
   return (
     <>
       <Helmet>
-        <title>Our Products | Premium Edible Oils & By-Products | Diamond Pearls Agro Allied Ltd</title>
+        <title>Our Products | Diamond Pearls Agro Allied Ltd</title>
         <meta
           name="description"
-          content="Explore our range of premium edible oils including RBDPKO, RBDPO, Refined Soya Oil, and our retail brand Samcas Vegetable Oil. High-quality products for food manufacturing, cooking, and industrial applications."
+          content="Explore our range of premium edible oils including RBDPKO, RBDPO, Refined Soya Oil, and our retail brand Samcas Vegetable Oil."
         />
-        <meta name="keywords" content="edible oils, RBDPKO, RBDPO, refined soya oil, palm kernel oil, palm kernel cake, palm kernel shell, Samcas vegetable oil, Nigeria edible oils, food manufacturing, cooking oils" />
-        <meta property="og:title" content="Our Products | Premium Edible Oils & By-Products | Diamond Pearls Agro Allied Ltd" />
-        <meta property="og:description" content="Explore our range of premium edible oils including RBDPKO, RBDPO, Refined Soya Oil, and our retail brand Samcas Vegetable Oil." />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://diamondpearlsltd.com/products" />
-        <meta property="og:image" content="https://diamondpearlsltd.com/images/logo.jpeg" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Our Products | Diamond Pearls Agro Allied Ltd" />
-        <meta name="twitter:description" content="Explore our range of premium edible oils including RBDPKO, RBDPO, Refined Soya Oil, and our retail brand Samcas Vegetable Oil." />
-        <link rel="canonical" href="https://diamondpearlsltd.com/products" />
       </Helmet>
 
       <Header />
@@ -117,7 +107,7 @@ const Products = () => {
                     {product.shortName}
                   </span>
 
-                  <h3 className="font-serif text-xl font-semibold text-foreground mb-3 group-hover:text-primary transition-colors whitespace-pre-line">
+                  <h3 className="font-serif text-xl font-semibold text-foreground mb-3 group-hover:text-primary transition-colors">
                     {product.title}
                   </h3>
 

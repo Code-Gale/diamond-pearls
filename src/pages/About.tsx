@@ -162,21 +162,11 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About Us | Our Story, Mission & Leadership | Diamond Pearls Agro Allied Ltd</title>
+        <title>About Us | Diamond Pearls Agro Allied Ltd</title>
         <meta
           name="description"
-          content="Learn about Diamond Pearls Agro Allied Ltd's mission, vision, and leadership team. Nigeria's premier integrated edible oils producer since 1998. Over 1000 hectares of plantation, 200 tons/day crushing capacity."
+          content="Learn about Diamond Pearls Agro Allied Ltd's mission, vision, and leadership team. Nigeria's premier integrated edible oils producer since 1998."
         />
-        <meta name="keywords" content="Diamond Pearls Agro Allied Ltd, Nigeria agribusiness, palm oil company, edible oils producer, agricultural company Nigeria, company history, leadership team" />
-        <meta property="og:title" content="About Us | Diamond Pearls Agro Allied Ltd" />
-        <meta property="og:description" content="Learn about Diamond Pearls Agro Allied Ltd's mission, vision, and leadership team. Nigeria's premier integrated edible oils producer since 1998." />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://diamondpearlsltd.com/about" />
-        <meta property="og:image" content="https://diamondpearlsltd.com/images/logo.jpeg" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="About Us | Diamond Pearls Agro Allied Ltd" />
-        <meta name="twitter:description" content="Learn about Diamond Pearls Agro Allied Ltd's mission, vision, and leadership team." />
-        <link rel="canonical" href="https://diamondpearlsltd.com/about" />
       </Helmet>
 
       <Header />
