@@ -48,11 +48,21 @@ const Sustainability = () => {
   return (
     <>
       <Helmet>
-        <title>Sustainability | Diamond Pearls Agro Allied Ltd</title>
+        <title>Sustainability | Environmental Commitment & CSR | Diamond Pearls Agro Allied Ltd</title>
         <meta
           name="description"
-          content="Discover our commitment to sustainable agriculture, environmental stewardship, and community development at Diamond Pearls Agro Allied Ltd."
+          content="Discover our commitment to sustainable agriculture, environmental stewardship, and community development at Diamond Pearls Agro Allied Ltd. Waste reduction, sustainable forestry, water conservation, and CSR initiatives."
         />
+        <meta name="keywords" content="sustainable agriculture, environmental stewardship, CSR Nigeria, sustainable palm oil, responsible agriculture, community development, environmental conservation" />
+        <meta property="og:title" content="Sustainability | Diamond Pearls Agro Allied Ltd" />
+        <meta property="og:description" content="Discover our commitment to sustainable agriculture, environmental stewardship, and community development." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://diamondpearlsltd.com/sustainability" />
+        <meta property="og:image" content="https://diamondpearlsltd.com/images/logo.jpeg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Sustainability | Diamond Pearls Agro Allied Ltd" />
+        <meta name="twitter:description" content="Discover our commitment to sustainable agriculture and environmental stewardship." />
+        <link rel="canonical" href="https://diamondpearlsltd.com/sustainability" />
       </Helmet>
 
       <Header />

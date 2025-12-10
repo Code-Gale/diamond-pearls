@@ -1,14 +1,12 @@
-User-agent: Googlebot
-Allow: /
+# Robots.txt for Diamond Pearls Agro Allied Ltd
+# https://diamondpearlsltd.com
 
-User-agent: Bingbot
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
-
+# Allow all search engines
 User-agent: *
 Allow: /
+
+# Sitemap location
+Sitemap: https://diamondpearlsltd.com/sitemap.xml
+
+# Crawl-delay (optional, helps prevent server overload)
+Crawl-delay: 1

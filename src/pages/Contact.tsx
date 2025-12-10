@@ -31,11 +31,21 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Us | Diamond Pearls Agro Allied Ltd</title>
+        <title>Contact Us | Get in Touch | Diamond Pearls Agro Allied Ltd</title>
         <meta
           name="description"
-          content="Get in touch with Diamond Pearls Agro Allied Ltd. Contact our offices in Lagos and Kwara State for business inquiries."
+          content="Get in touch with Diamond Pearls Agro Allied Ltd. Contact our offices in Lagos (Headquarters) and Kwara State (Factory) for business inquiries, product orders, and partnerships. Email: info@diamondpearlsltd.com"
         />
+        <meta name="keywords" content="contact Diamond Pearls, Nigeria edible oils contact, Lagos agribusiness, Kwara State factory, business inquiries, product orders" />
+        <meta property="og:title" content="Contact Us | Diamond Pearls Agro Allied Ltd" />
+        <meta property="og:description" content="Get in touch with Diamond Pearls Agro Allied Ltd. Contact our offices in Lagos and Kwara State for business inquiries." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://diamondpearlsltd.com/contact" />
+        <meta property="og:image" content="https://diamondpearlsltd.com/images/logo.jpeg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Contact Us | Diamond Pearls Agro Allied Ltd" />
+        <meta name="twitter:description" content="Get in touch with Diamond Pearls Agro Allied Ltd for business inquiries." />
+        <link rel="canonical" href="https://diamondpearlsltd.com/contact" />
       </Helmet>
 
       <Header />

@@ -15,22 +15,14 @@ import { X, ChevronLeft, ChevronRight, Maximize2 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const galleryImages = [
-  { src: "/images/Picture1.jpg", alt: "Gallery Image 1" },
-  { src: "/images/Picture2.jpg", alt: "Gallery Image 2" },
-  { src: "/images/1.jpeg", alt: "Gallery Image 3" },
-  { src: "/images/Picture4.jpg", alt: "Gallery Image 4" },
-  { src: "/images/Picture5.jpg", alt: "Gallery Image 5" },
-  { src: "/images/2.jpeg", alt: "Gallery Image 6" },
-  { src: "/images/Picture7.jpg", alt: "Gallery Image 7" },
-  { src: "/images/Picture8.jpg", alt: "Gallery Image 8" },
-  // { src: "/images/3.jpeg", alt: "Gallery Image 9" },
-  { src: "/images/4.jpeg", alt: "Gallery Image 10" },
-  { src: "/images/5.jpeg", alt: "Gallery Image 11" },
-  { src: "/images/6.jpeg", alt: "Gallery Image 12" },
-  { src: "/images/7.jpeg", alt: "Gallery Image 13" },
-  { src: "/images/8.jpeg", alt: "Gallery Image 14" },
-  { src: "/images/10.jpeg", alt: "Gallery Image 15" },
-  { src: "/images/11.jpeg", alt: "Gallery Image 17" },
+  { src: "/images/a1.jpg", alt: "Gallery Image 1" },
+  { src: "/images/a2.jpg", alt: "Gallery Image 2" },
+  { src: "/images/a3.png", alt: "Gallery Image 3" },
+  { src: "/images/a4.jpg", alt: "Gallery Image 4" },
+  { src: "/images/a5.jpg", alt: "Gallery Image 5" },
+  { src: "/images/a6.png", alt: "Gallery Image 6" },
+  { src: "/images/a7.jpg", alt: "Gallery Image 7" },
+  { src: "/images/a8.jpg", alt: "Gallery Image 8" },
 ];
 
 const GallerySlider = () => {

@@ -25,7 +25,7 @@ const timelineEvents = [
   {
     year: "2014",
     title: "Refinery Launch",
-    description: "Commissioned state-of-the-art vegetable oil refinery and launched RBPKO production.",
+    description: "Commissioned state-of-the-art vegetable oil refinery and launched RBDPKO production.",
   },
   {
     year: "Present",

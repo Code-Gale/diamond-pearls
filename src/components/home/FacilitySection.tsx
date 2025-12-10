@@ -21,7 +21,7 @@ const facilities = [
     icon: Beaker,
     title: "Refineries",
     location: "Kwara State",
-    description: "State-of-the-art vegetable oil refineries producing premium RBPKO, RBDPO, and refined soya oil.",
+    description: "State-of-the-art vegetable oil refineries producing premium RBDPKO, RBDPO, and refined soya oil.",
     stat: "180 Tons/Day",
   },
   {
