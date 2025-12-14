@@ -9,21 +9,21 @@ const products = [
     icon: Droplets,
     title: "Refined Bleached Deodorised Palm Kernel Oil",
     shortName: "RBDPKO",
-    description: "High-quality refined palm kernel oil, perfect for food processing and cosmetic applications.",
+    description: "Food-grade quality refined palm kernel oil produced using modern refining processes. Perfect for food processing, cosmetic applications, and industrial use.",
     color: "bg-amber-500/10 text-amber-600",
   },
   {
     icon: FlaskConical,
     title: "Refined Bleached Deodorised Palm Oil",
     shortName: "RBDPO",
-    description: "Premium refined palm oil suitable for cooking, frying, and industrial food production.",
+    description: "Food-grade quality premium refined palm oil produced using modern refining processes. Suitable for cooking, frying, and industrial food production.",
     color: "bg-orange-500/10 text-orange-600",
   },
   {
     icon: Leaf,
     title: "Refined Soya Oil",
     shortName: "RSO",
-    description: "Light and healthy soya oil, ideal for everyday cooking and food manufacturing.",
+    description: "Food-grade quality refined soya oil produced using modern refining processes. Ideal for everyday cooking, food manufacturing, and industrial applications.",
     color: "bg-emerald-500/10 text-emerald-600",
   },
 ];
@@ -59,12 +59,11 @@ const ProductsSection = () => {
               Our Products
             </span>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-semibold text-foreground">
-              Premium <span className="text-primary">Edible Oils</span>
+              Products by Diamond Pearls Agro Allied Limited
             </h2>
           </div>
           <p className="text-muted-foreground max-w-md lg:text-right">
-            Discover our range of high-quality vegetable oils, produced with state-of-the-art 
-            technology and rigorous quality control.
+            All our products are food-grade quality, suitable for industrial applications, and produced using modern refining processes to ensure premium standards.
           </p>
         </div>
 

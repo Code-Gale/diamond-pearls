@@ -6,16 +6,17 @@ import TimelineSection from "@/components/home/TimelineSection";
 import ProductsSection from "@/components/home/ProductsSection";
 import FacilitySection from "@/components/home/FacilitySection";
 import GallerySlider from "@/components/home/GallerySlider";
+import TrustAuthoritySection from "@/components/home/TrustAuthoritySection";
 import ContactCTA from "@/components/home/ContactCTA";
 
 const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Diamond Pearls Agro Allied Ltd | Premium Edible Oils Producer in Nigeria</title>
+        <title>Diamond Pearls Agro Allied Limited | Integrated Edible Oil Producer in Nigeria</title>
         <meta
           name="description"
-          content="Diamond Pearls Agro Allied Ltd is Nigeria's leading integrated producer of premium edible oils including RBDPKO, RBDPO, and Refined Soya Oil. Established 1998. From plantation to packaging, quality at every stage."
+          content="Diamond Pearls Agro Allied Limited is a Nigerian agro-allied company established in 1998, specializing in integrated production of premium edible oils including RBDPKO, palm oil, and soya oil."
         />
         <meta name="keywords" content="edible oils, palm oil, Nigeria agribusiness, RBDPKO, RBDPO, vegetable oil, Samcas, palm kernel oil, refined soya oil, Nigeria food production, agribusiness Nigeria" />
         <meta property="og:title" content="Diamond Pearls Agro Allied Ltd | Premium Edible Oils Producer in Nigeria" />
@@ -40,6 +41,7 @@ const Index = () => {
         <ProductsSection />
         <FacilitySection />
         <GallerySlider />
+        <TrustAuthoritySection />
         <ContactCTA />
       </main>
 

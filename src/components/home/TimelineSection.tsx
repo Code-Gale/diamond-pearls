@@ -71,7 +71,7 @@ const TimelineSection = () => {
             Our Journey
           </span>
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-semibold text-foreground mb-4">
-            A Legacy of <span className="text-primary">Growth</span>
+            About Diamond Pearls Agro Allied Limited
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             From humble beginnings to becoming one of Nigeria's premier agribusiness companies, 

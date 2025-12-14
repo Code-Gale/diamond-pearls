@@ -23,8 +23,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-primary-foreground/80 text-sm leading-relaxed mb-6">
-              A privately owned Nigerian agribusiness, evolving from commodity trading 
-              into a fully integrated producer of premium edible oils since 1998.
+              Diamond Pearls Agro Allied Limited is a Nigerian agro-allied company established in 1998 and engaged in integrated edible oil production across Nigeria.
             </p>
             <div className="flex gap-3">
               <a

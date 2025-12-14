@@ -135,21 +135,23 @@ const HeroSection = () => {
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             )}
           >
-            Welcome to{" "}
-            <span className="text-gradient-gold">Diamond Pearls</span>{" "}
-            Agro Allied Ltd
+            Diamond Pearls Agro Allied Limited – Nigeria's Leading Integrated Edible Oil Producer
           </h1>
 
-          {/* Subtext */}
-          <p
+          {/* Above-the-fold Brand Description (CRITICAL - First 120 Words) */}
+          <div
             className={cn(
-              "text-lg md:text-xl text-primary-foreground/80 max-w-2xl mx-auto mb-10 leading-relaxed transition-all duration-700 delay-200",
+              "text-lg md:text-xl text-primary-foreground/80 max-w-3xl mx-auto mb-6 leading-relaxed transition-all duration-700 delay-200",
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             )}
           >
-            A privately owned Nigerian agribusiness, evolving from commodity trading 
-            into a fully integrated producer of premium edible oils.
-          </p>
+            <p className="mb-4">
+              Diamond Pearls Agro Allied Limited is a privately owned Nigerian agribusiness company established in 1998. Formerly known as Diamond Pearls, the company operates as a fully integrated agro-allied enterprise specializing in the production of premium edible oils, including Refined Bleached Deodorised Palm Kernel Oil (RBDPKO), Refined Palm Oil (RBDPO), and Refined Soya Oil (RSO). With plantation, crushing, refining, and bottling facilities located in Kwara State and corporate headquarters in Lagos, Diamond Pearls Agro Allied Limited serves food manufacturers, industrial processors, and bulk buyers across Nigeria and West Africa.
+            </p>
+            <p className="text-base md:text-lg">
+              <strong>Brand Name Variants:</strong> Diamond Pearls Agro Allied Limited, Diamond Pearls Agro Allied Ltd, and Diamond Pearls Nigeria all refer to the same company entity.
+            </p>
+          </div>
 
           {/* CTAs */}
           <div

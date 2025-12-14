@@ -94,7 +94,7 @@ const FacilitySection = () => {
             Our Facilities
           </span>
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-semibold text-primary-foreground mb-4">
-            Integrated <span className="text-accent">Operations</span>
+            Operations & Facilities
           </h2>
           <p className="text-primary-foreground/70 max-w-2xl mx-auto">
             From plantation to packaging, our vertically integrated operations ensure 
