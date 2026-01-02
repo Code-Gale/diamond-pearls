@@ -68,6 +68,15 @@ const Products = () => {
       "brand": {
         "@type": "Brand",
         "name": "Diamond Pearls Agro Allied Ltd"
+      },
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "priceCurrency": "NGN",
+        "seller": {
+          "@type": "Organization",
+          "name": "Diamond Pearls Agro Allied Limited"
+        }
       }
     }))
   };
