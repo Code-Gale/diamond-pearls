@@ -56,6 +56,25 @@ const products = [
 ];
 
 const Products = () => {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://diamondpearlsltd.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Products",
+        "item": "https://diamondpearlsltd.com/products"
+      }
+    ]
+  };
+
   const productsSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
@@ -85,12 +104,12 @@ const Products = () => {
     <>
       <Helmet>
         <script type="application/ld+json">
-          {JSON.stringify(productsSchema)}
+          {JSON.stringify([breadcrumbSchema, productsSchema])}
         </script>
-        <title>Our Products | Premium Edible Oils & By-Products | Diamond Pearls Agro Allied Ltd</title>
+        <title>Our Products | Premium Edible Oils & By-Products | Diamond Pearls Agro Allied Limited</title>
         <meta
           name="description"
-          content="Explore our range of premium edible oils including RBDPKO, RBDPO, Refined Soya Oil, Palm Kernel Shell, Palm Kernel Cake, Acid Oil, and our retail brand Samcas Vegetable Oil. Quality products for food processing, cosmetics, and industrial applications."
+          content="Diamond Pearls Agro Allied Limited offers premium edible oils including RBDPKO, RBDPO, Refined Soya Oil, Palm Kernel Shell, Palm Kernel Cake, Acid Oil, and our retail brand Samcas Vegetable Oil. Quality products for food processing, cosmetics, and industrial applications."
         />
         <meta name="keywords" content="RBDPKO, RBDPO, refined soya oil, palm kernel shell, palm kernel cake, acid oil, Samcas vegetable oil, edible oils Nigeria, vegetable oil products, food processing oils, cosmetic oils" />
         <meta property="og:title" content="Our Products | Premium Edible Oils & By-Products | Diamond Pearls Agro Allied Ltd" />

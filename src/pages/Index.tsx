@@ -10,26 +10,42 @@ import TrustAuthoritySection from "@/components/home/TrustAuthoritySection";
 import ContactCTA from "@/components/home/ContactCTA";
 
 const Index = () => {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://diamondpearlsltd.com"
+      }
+    ]
+  };
+
   return (
     <>
       <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbSchema)}
+        </script>
         <title>Diamond Pearls Agro Allied Limited | Integrated Edible Oil Producer in Nigeria</title>
         <meta
           name="description"
-          content="Diamond Pearls Agro Allied Limited is a Nigerian agro-allied company established in 1998, specializing in integrated production of premium edible oils including RBDPKO, palm oil, and soya oil."
+          content="Diamond Pearls Agro Allied Limited is a Nigerian agro-allied company established in 1998, specializing in integrated production of premium edible oils including RBDPKO, palm oil, and soya oil. Official website of Diamond Pearls Agro Allied Limited."
         />
-        <meta name="keywords" content="edible oils, palm oil, Nigeria agribusiness, RBDPKO, RBDPO, vegetable oil, Samcas, palm kernel oil, refined soya oil, Nigeria food production, agribusiness Nigeria" />
-        <meta property="og:title" content="Diamond Pearls Agro Allied Ltd | Premium Edible Oils Producer in Nigeria" />
+        <meta name="keywords" content="Diamond Pearls Agro Allied Limited, edible oils, palm oil, Nigeria agribusiness, RBDPKO, RBDPO, vegetable oil, Samcas, palm kernel oil, refined soya oil, Nigeria food production, agribusiness Nigeria" />
+        <meta property="og:title" content="Diamond Pearls Agro Allied Limited | Premium Edible Oils Producer in Nigeria" />
         <meta
           property="og:description"
-          content="Nigeria's leading integrated producer of premium edible oils including RBDPKO, RBDPO, and Refined Soya Oil. Established 1998. From plantation to packaging, quality at every stage."
+          content="Diamond Pearls Agro Allied Limited - Nigeria's leading integrated producer of premium edible oils including RBDPKO, RBDPO, and Refined Soya Oil. Established 1998. From plantation to packaging, quality at every stage."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://diamondpearlsltd.com" />
         <meta property="og:image" content="https://diamondpearlsltd.com/images/logo.jpeg" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Diamond Pearls Agro Allied Ltd | Premium Edible Oils Producer" />
-        <meta name="twitter:description" content="Nigeria's leading integrated producer of premium edible oils including RBDPKO, RBDPO, and Refined Soya Oil." />
+        <meta name="twitter:title" content="Diamond Pearls Agro Allied Limited | Premium Edible Oils Producer" />
+        <meta name="twitter:description" content="Diamond Pearls Agro Allied Limited - Nigeria's leading integrated producer of premium edible oils including RBDPKO, RBDPO, and Refined Soya Oil." />
         <link rel="canonical" href="https://diamondpearlsltd.com" />
       </Helmet>
 

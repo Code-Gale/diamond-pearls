@@ -28,22 +28,44 @@ const Contact = () => {
     (e.target as HTMLFormElement).reset();
   };
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://diamondpearlsltd.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Contact",
+        "item": "https://diamondpearlsltd.com/contact"
+      }
+    ]
+  };
+
   return (
     <>
       <Helmet>
-        <title>Contact Us | Get in Touch | Diamond Pearls Agro Allied Ltd</title>
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbSchema)}
+        </script>
+        <title>Contact Us | Get in Touch | Diamond Pearls Agro Allied Limited</title>
         <meta
           name="description"
-          content="Get in touch with Diamond Pearls Agro Allied Ltd. Contact our offices in Lagos (Headquarters) and Kwara State (Factory) for business inquiries, product orders, and partnerships. Email: info@diamondpearlsltd.com"
+          content="Contact Diamond Pearls Agro Allied Limited. Get in touch with Diamond Pearls Agro Allied Limited offices in Lagos (Headquarters) and Kwara State (Factory) for business inquiries, product orders, and partnerships. Email: info@diamondpearlsltd.com"
         />
-        <meta name="keywords" content="contact Diamond Pearls, Nigeria edible oils contact, Lagos agribusiness, Kwara State factory, business inquiries, product orders" />
-        <meta property="og:title" content="Contact Us | Get in Touch | Diamond Pearls Agro Allied Ltd" />
-        <meta property="og:description" content="Get in touch with Diamond Pearls Agro Allied Ltd. Contact our offices in Lagos and Kwara State for business inquiries." />
+        <meta name="keywords" content="contact Diamond Pearls Agro Allied Limited, Nigeria edible oils contact, Lagos agribusiness, Kwara State factory, business inquiries, product orders" />
+        <meta property="og:title" content="Contact Us | Get in Touch | Diamond Pearls Agro Allied Limited" />
+        <meta property="og:description" content="Contact Diamond Pearls Agro Allied Limited. Get in touch with our offices in Lagos and Kwara State for business inquiries." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://diamondpearlsltd.com/contact" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="Contact Us | Diamond Pearls Agro Allied Ltd" />
-        <meta name="twitter:description" content="Get in touch with Diamond Pearls Agro Allied Ltd. Contact our offices in Lagos and Kwara State for business inquiries." />
+        <meta name="twitter:title" content="Contact Us | Diamond Pearls Agro Allied Limited" />
+        <meta name="twitter:description" content="Contact Diamond Pearls Agro Allied Limited. Get in touch with our offices in Lagos and Kwara State for business inquiries." />
         <link rel="canonical" href="https://diamondpearlsltd.com/contact" />
       </Helmet>
 

@@ -63,22 +63,44 @@ const teamMembers = [
 ];
 
 const Careers = () => {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://diamondpearlsltd.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Careers",
+        "item": "https://diamondpearlsltd.com/careers"
+      }
+    ]
+  };
+
   return (
     <>
       <Helmet>
-        <title>Careers | Join Our Team | Diamond Pearls Agro Allied Ltd</title>
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbSchema)}
+        </script>
+        <title>Careers | Join Our Team | Diamond Pearls Agro Allied Limited</title>
         <meta
           name="description"
-          content="Join Diamond Pearls Agro Allied Ltd and build your career in Nigeria's leading agribusiness company. Explore career opportunities, internships, and SIWES programs. Send your CV to hr@diamondpearlsltd.com"
+          content="Join Diamond Pearls Agro Allied Limited and build your career in Nigeria's leading agribusiness company. Explore career opportunities at Diamond Pearls Agro Allied Limited, internships, and SIWES programs. Send your CV to hr@diamondpearlsltd.com"
         />
-        <meta name="keywords" content="careers Nigeria agribusiness, jobs Diamond Pearls, internships, SIWES opportunities, agribusiness careers, Nigeria agriculture jobs" />
-        <meta property="og:title" content="Careers | Join Our Team | Diamond Pearls Agro Allied Ltd" />
-        <meta property="og:description" content="Join Diamond Pearls Agro Allied Ltd and build your career in Nigeria's leading agribusiness company. Explore opportunities and internships." />
+        <meta name="keywords" content="Diamond Pearls Agro Allied Limited careers, careers Nigeria agribusiness, jobs Diamond Pearls, internships, SIWES opportunities, agribusiness careers, Nigeria agriculture jobs" />
+        <meta property="og:title" content="Careers | Join Our Team | Diamond Pearls Agro Allied Limited" />
+        <meta property="og:description" content="Join Diamond Pearls Agro Allied Limited and build your career in Nigeria's leading agribusiness company. Explore opportunities and internships." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://diamondpearlsltd.com/careers" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="Careers | Diamond Pearls Agro Allied Ltd" />
-        <meta name="twitter:description" content="Join Diamond Pearls Agro Allied Ltd and build your career in Nigeria's leading agribusiness company." />
+        <meta name="twitter:title" content="Careers | Diamond Pearls Agro Allied Limited" />
+        <meta name="twitter:description" content="Join Diamond Pearls Agro Allied Limited and build your career in Nigeria's leading agribusiness company." />
         <link rel="canonical" href="https://diamondpearlsltd.com/careers" />
       </Helmet>
 

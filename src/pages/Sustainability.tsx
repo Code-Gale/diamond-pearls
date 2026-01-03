@@ -45,22 +45,44 @@ const csrInitiatives = [
 ];
 
 const Sustainability = () => {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://diamondpearlsltd.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Sustainability",
+        "item": "https://diamondpearlsltd.com/sustainability"
+      }
+    ]
+  };
+
   return (
     <>
       <Helmet>
-        <title>Sustainability | Environmental Commitment & CSR | Diamond Pearls Agro Allied Ltd</title>
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbSchema)}
+        </script>
+        <title>Sustainability | Environmental Commitment & CSR | Diamond Pearls Agro Allied Limited</title>
         <meta
           name="description"
-          content="Discover our commitment to sustainable agriculture, environmental stewardship, and community development at Diamond Pearls Agro Allied Ltd. Learn about our waste reduction, sustainable forestry, water conservation, and CSR initiatives."
+          content="Discover Diamond Pearls Agro Allied Limited's commitment to sustainable agriculture, environmental stewardship, and community development. Learn about Diamond Pearls Agro Allied Limited's waste reduction, sustainable forestry, water conservation, and CSR initiatives."
         />
-        <meta name="keywords" content="sustainable agriculture Nigeria, environmental stewardship, CSR initiatives, sustainable palm oil, eco-friendly agribusiness, community development" />
-        <meta property="og:title" content="Sustainability | Environmental Commitment & CSR | Diamond Pearls Agro Allied Ltd" />
-        <meta property="og:description" content="Discover our commitment to sustainable agriculture, environmental stewardship, and community development at Diamond Pearls Agro Allied Ltd." />
+        <meta name="keywords" content="Diamond Pearls Agro Allied Limited sustainability, sustainable agriculture Nigeria, environmental stewardship, CSR initiatives, sustainable palm oil, eco-friendly agribusiness, community development" />
+        <meta property="og:title" content="Sustainability | Environmental Commitment & CSR | Diamond Pearls Agro Allied Limited" />
+        <meta property="og:description" content="Discover Diamond Pearls Agro Allied Limited's commitment to sustainable agriculture, environmental stewardship, and community development." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://diamondpearlsltd.com/sustainability" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Sustainability | Diamond Pearls Agro Allied Ltd" />
-        <meta name="twitter:description" content="Discover our commitment to sustainable agriculture, environmental stewardship, and community development." />
+        <meta name="twitter:title" content="Sustainability | Diamond Pearls Agro Allied Limited" />
+        <meta name="twitter:description" content="Discover Diamond Pearls Agro Allied Limited's commitment to sustainable agriculture, environmental stewardship, and community development." />
         <link rel="canonical" href="https://diamondpearlsltd.com/sustainability" />
       </Helmet>
 
